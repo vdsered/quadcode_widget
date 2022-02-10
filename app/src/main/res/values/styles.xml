@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Widget.CustomWidget.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.CustomWidget.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <declare-styleable name="RegularPolygonView">
+        <attr name="num" format="integer"/>
+    </declare-styleable>
+</resources>
